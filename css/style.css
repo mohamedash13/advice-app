@@ -1,0 +1,44 @@
+:root{
+--Grayish-Blue: hsl(217, 19%, 38%);
+--Dark-Grayish-Blue: hsl(217, 19%, 24%);
+--Dark-Blue: hsl(218, 23%, 16%);
+--Light-Cyan: hsl(193, 38%, 86%);
+--Neon-Green: hsl(150, 100%, 66%);
+}
+body{
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--Dark-Blue);
+    height: 100vh;
+}
+.all{
+    border-radius: 30px;
+    width: 50%;
+    background-color: var(--Dark-Grayish-Blue);
+}
+h1{
+    color: var(--Neon-Green);
+    letter-spacing: 5px;
+    font-size: 0.8rem;
+}
+p{
+    color: var(--Light-Cyan);
+}
+button{
+    padding: 20px;
+    top: 70px;
+    border: none;
+    background-color: var(--Neon-Green);
+    transition: all 0.5s;
+    box-shadow: 0 0 0 0 var(--Neon-Green);
+}
+button:hover{
+    box-shadow: 0 0 20px 0 var(--Neon-Green);
+}
+
+
+
+@media (max-width: 768px){
+.all{
+    width: 90%;
+}
+}
