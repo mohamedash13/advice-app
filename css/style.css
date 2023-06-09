@@ -41,4 +41,15 @@ button:hover{
 .all{
     width: 90%;
 }
+    button{
+    padding: 20px;
+    top: 70px;
+    border: none;
+    background-color: var(--Neon-Green);
+    transition: none;
+    box-shadow: none;
+}
+button:hover{
+    box-shadow: none;
+}
 }
